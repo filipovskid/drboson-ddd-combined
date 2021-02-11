@@ -1,0 +1,62 @@
+@import '../../../../../styles/pallete';
+
+.processing-step {
+    margin-bottom: 5px;
+    list-style: none;
+    // display: flex;
+}
+
+.processor {
+    font-size: 12px;
+    min-height: 20px;
+    line-height: 20px;
+    background-color: white;
+    border-bottom: 1px solid $border;
+
+    &__config {
+        display: none;
+        min-height: 50px;
+        padding: 0px 10px 5px 20px;
+
+        hr {
+            margin-top: 2px;
+            margin-bottom: 5px;
+        }
+    }
+
+    &.active &__config {
+        display: block;
+    }
+}
+
+.processor-info {
+    min-height: 40px;
+    line-height: normal;
+    padding: 3px 10px;
+    padding-left: 20px;
+    cursor: pointer;
+    text-overflow: ellipsis;
+
+    &__footer {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5px;
+    }
+
+    &__changes {
+        font-size: 11px;
+        font-weight: 600;
+
+        // created
+        // modified
+        // deleted
+        color: $error;
+    }
+
+    &__actions {
+        .action svg {
+            width: 13px;
+        }
+    }
+
+}

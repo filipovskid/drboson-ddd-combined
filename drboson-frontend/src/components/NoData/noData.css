@@ -1,0 +1,22 @@
+.no-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.no-data .no-data__art img {
+  width: 250px;
+}
+
+.no-data .no-data__content {
+  max-width: 250px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=noData.css.map */

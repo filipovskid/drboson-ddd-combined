@@ -1,0 +1,73 @@
+@import '../../../../../styles/pallete';
+
+.selection-item {
+    background-color: white;
+    font-size: 12px;
+    list-style: none;
+    line-height: 20px;
+    height: 45px;
+    margin-bottom: 4px;
+
+    cursor: pointer;
+    border: 1px solid transparent;
+    box-shadow: 0px 1px 0px 0px #cccccc;
+
+    &.selected {
+        border: 1px solid $graph-node;
+        background-color: lighten($graph-node, 30);
+        box-shadow: none;
+    }
+
+    &:hover {
+        border-bottom: 1px solid $graph-node;
+    }
+}
+
+.selection-item .item-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3px 10px;
+    height: 100%;
+
+    .item-checkbox {
+        display: block;
+        cursor: pointer;
+    }
+}
+
+.selection-item .item-info {
+    flex: 1 1 0;
+    min-width: 0;
+    height: 100%;
+    margin-left: 10px;
+
+    .item-info__header {
+        font-size: 11px;
+        font-weight: 500;
+    }
+
+    .item-info__actions {
+        font-size: 11px;
+
+        // .item-info__actions--actions {}
+    }
+
+    a.item-uri {
+        font-size: 10px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: 700;
+        color: gray;
+
+        &:hover {
+            color: $link;
+        }
+    }
+}
+
+.ellipsis {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}

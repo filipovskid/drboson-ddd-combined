@@ -1,0 +1,13 @@
+.project-data {
+  margin: 10px 50px;
+}
+
+.project-data .project-data__uploader {
+  height: 200px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=projectData.css.map */

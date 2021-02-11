@@ -1,0 +1,16 @@
+.processing-panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0px;
+          flex: 1 1 0;
+}
+
+.processing-steps {
+  padding: 5px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0px;
+          flex: 1 1 0;
+}
+/*# sourceMappingURL=processingPanel.css.map */

@@ -1,0 +1,77 @@
+.control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+
+.control__tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.control__tabs .control__tabs--tab {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 0px;
+          flex: 1 0 0px;
+  height: 55px;
+  cursor: pointer;
+  outline: none;
+  background-color: white;
+}
+
+.control__tabs .control__tabs--tab.react-tabs__tab--selected {
+  border-bottom: 2px solid #4b636e;
+}
+
+.control__tab--content {
+  text-align: center;
+  padding: 2px 12px;
+}
+
+.control__tab--content .tab-title {
+  display: block;
+  font-size: 17px;
+  font-weight: 500;
+  color: #666666;
+}
+
+.control__tab--content .tab-subtitle {
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  color: #aaa;
+  margin-top: 5px;
+}
+
+.control__panel {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  position: relative;
+}
+
+.control__panel:not(.react-tabs__tab-panel--selected) {
+  display: none;
+}
+
+.splitter-wrapper {
+  height: 100%;
+}
+/*# sourceMappingURL=transformControl.css.map */

@@ -1,0 +1,62 @@
+[
+    // Descriptive, quite long.
+    {
+        "node": {
+            "type": "URI"
+        },
+        "literals": [
+            {
+                "name": "literal name",
+                "source_node": {
+                    "type": "URI"
+                },
+                "property": "URI"
+            }
+        ],
+        "branches": [
+            {
+                "edges": [
+                    {
+                        "source_node": {
+                            "type": "URI"
+                        },
+                        "target_node": {
+                            "type": "URI"
+                        },
+                        "property": "URI",
+                        "literals": [
+                            {}
+                        ]
+                    }
+                    // Ordered
+                ]
+            }
+        ]
+    },
+    {
+        "node": "URI",
+        "attributes": [
+            "",
+            ""
+        ],
+        "literals": [
+            {
+                "name": "literal-name",
+                "property": "URI"
+            }
+        ],
+        "branches": [
+            {
+                "edges": [
+                    {
+                        "target_node": "URI",
+                        "relationship": "URI", // with the source (property)
+                        "literals": [
+                            {}
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

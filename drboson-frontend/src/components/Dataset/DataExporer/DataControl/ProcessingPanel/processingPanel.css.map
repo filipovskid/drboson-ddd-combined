@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,iBAAiB,CAAC;EACd,OAAO,EAAE,IAAI;EACb,IAAI,EAAE,KAAK;CACd;;AAED,AAAA,iBAAiB,CAAC;EACd,OAAO,EAAE,GAAG;EACZ,IAAI,EAAE,KAAK;CACd",
+    "sources": [
+        "processingPanel.scss"
+    ],
+    "names": [],
+    "file": "processingPanel.css"
+}

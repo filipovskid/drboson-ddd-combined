@@ -1,0 +1,24 @@
+.dataset .circle-status {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  margin: auto;
+}
+
+.dataset .idle,
+.dataset .default {
+  background-color: #cdcdcd;
+}
+
+.dataset .pending {
+  background-color: #f3cb55;
+}
+
+.dataset .success {
+  background-color: #2ab1ac;
+}
+
+.dataset .failed {
+  background-color: #dc3545;
+}
+/*# sourceMappingURL=storageStatus.css.map */

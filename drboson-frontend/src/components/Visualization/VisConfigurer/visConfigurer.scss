@@ -1,0 +1,78 @@
+@import '../../../styles/pallete';
+
+.visualization-modal {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+
+    .visualization-config {
+        display: flex;
+        flex: 1;
+        flex-flow: column;
+        // padding: 20px;
+
+        .visualization-config__preview {
+            flex: 1;
+            min-height: 250px;
+            margin-bottom: 10px;
+
+            .plot-title {
+                min-height: 20px;
+                color: $accent-color-dark;
+                text-align: center;
+                text-overflow: ellipsis;
+                font-weight: 600;
+                font-size: 14px;
+                margin: 0 0 3px;
+            }
+        }
+
+        .visualization-config__settings {
+            flex: 1;
+            // padding-top: 20px;
+        }
+    }
+
+    .visualization-actions {
+        padding: 10px;
+        text-align: right;
+        border-top: 1px solid rgb(204, 204, 204);
+        background-color: rgb(245, 244, 244);
+        // align-self: e;
+
+        button:not(:last-child) {
+            margin-right: 10px;
+        }
+
+        .btn-ok {
+            background-color: $accent-color;
+            border: 1px solid $accent-color-dark;
+            color: white;
+        }
+
+        .btn-cancel {
+            background-color: white;
+            border: 1px solid $accent-color-dark;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .visualization-config {
+            min-height: 0;
+            flex-flow: row;
+            padding: 20px 20px;
+
+            .visualization-config__preview {
+                flex: 3;
+                min-height: 0;
+                max-width: 70%;
+
+                margin: 20px 20px 20px 0;
+            }
+
+            .visualization-config__settings {
+                flex: 2;
+            }
+        }
+    }
+}

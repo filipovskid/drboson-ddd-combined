@@ -1,0 +1,18 @@
+@import '../../../../../styles/pallete';
+
+.validity-bar {
+    display: flex;
+    height: 8px;
+}
+
+.bar--ok {
+    background-color: $bar-ok;
+}
+
+.bar--bad {
+    background-color: $bar-bad;
+}
+
+.bar--empty {
+    background-color: $bar-empty;
+}

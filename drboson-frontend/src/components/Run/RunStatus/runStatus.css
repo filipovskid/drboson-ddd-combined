@@ -1,0 +1,32 @@
+.run .status {
+  display: inline;
+  padding: 3px 10px;
+  border: 1px solid;
+  border-radius: 3px;
+}
+
+.run .pending {
+  color: #aaa;
+  border-color: #aaa;
+}
+
+.run .running {
+  color: #4b636e;
+  border-color: #4b636e;
+}
+
+.run .success {
+  color: green;
+  border-color: green;
+}
+
+.run .failed {
+  color: red;
+  border-color: red;
+}
+
+.run .default {
+  color: #dbdbdb;
+  border-color: #dbdbdb;
+}
+/*# sourceMappingURL=runStatus.css.map */

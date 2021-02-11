@@ -1,0 +1,84 @@
+.panel {
+  height: 400px;
+  background-color: white;
+  border: 1px solid #dbdbdb;
+  padding: 10px;
+  position: relative;
+}
+
+.panel .panel__actions {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+}
+
+.panel .panel__actions .panel__actions--action {
+  display: block;
+  cursor: pointer;
+}
+
+.panel .panel__actions .panel__actions--action:hover svg {
+  stroke: #4b636e;
+}
+
+.panel .panel__actions .panel__actions--action svg {
+  stroke: transparent;
+}
+
+.panel:hover .panel__actions svg {
+  stroke: #aaa;
+}
+
+.panel .panel__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  padding-top: 12px;
+}
+
+.panel .panel__content .panel__content--vis {
+  min-height: 0;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.panel .panel__content .panel__content--title {
+  color: #364850;
+  text-align: center;
+  text-overflow: ellipsis;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0 0 3px;
+}
+
+.max-panel {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.max-panel .panel__content {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.max-panel .panel__actions {
+  z-index: 1000;
+}
+
+.max-panel .panel__actions--action svg {
+  stroke: #aaa !important;
+}
+
+.max-panel .panel__actions--action:hover svg {
+  stroke: #4b636e !important;
+}
+/*# sourceMappingURL=visPanel.css.map */

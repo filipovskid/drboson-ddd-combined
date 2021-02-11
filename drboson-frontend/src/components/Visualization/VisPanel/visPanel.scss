@@ -1,0 +1,83 @@
+@import '../../../styles/pallete';
+
+.panel {
+    height: 400px;
+    // width: 400px;
+    background-color: white;
+    border: 1px solid $border;
+    padding: 10px;
+    // margin: 20px;
+    position: relative;
+
+    .panel__actions {
+        position: absolute;
+        // z-index: 100;
+        top: 4px;
+        right: 4px;
+
+        .panel__actions--action {
+            // overflow: auto;
+            display: block;
+            // margin-right: 1.7rem;
+            cursor: pointer;
+        }
+
+        .panel__actions--action:hover svg {
+            stroke: $accent-color-dark;
+        }
+
+        .panel__actions--action svg {
+            stroke: transparent;
+        }
+    }
+
+    &:hover .panel__actions svg {
+        stroke: $icon-soft;
+    }
+
+    .panel__content {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding-top: 12px;
+
+        .panel__content--vis {
+            min-height: 0;
+            flex: 1;
+        }
+
+        .panel__content--title {
+            color: darken($color: $accent-color-dark, $amount: 10);
+            text-align: center;
+            text-overflow: ellipsis;
+            font-weight: 600;
+            font-size: 14px;
+            margin: 0 0 3px;
+        }
+    }
+}
+
+.max-panel {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    .panel__content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .panel__actions {
+        z-index: 1000;
+    }
+
+    .panel__actions--action svg {
+        stroke: $icon-soft !important;
+    }
+
+    .panel__actions--action:hover svg {
+        stroke: $accent-color-dark !important;
+    }
+}

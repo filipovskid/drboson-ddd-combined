@@ -1,0 +1,20 @@
+@import '../../../styles/pallete';
+
+.project {
+    &:hover {
+        cursor: pointer;
+        // transform: translateY(-3px);
+        // transition-duration: .1s;
+    }
+
+    .project__owner {
+        color: $suppressed-color;
+        text-transform: lowercase;
+        line-height: 1;
+        font-size: .9rem;
+    }
+
+    .project__info {
+        background-color: $card-color;
+    }
+}

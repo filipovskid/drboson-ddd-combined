@@ -1,0 +1,37 @@
+.data-control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+
+.data-control__tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  border-bottom: 1px solid #dbdbdb;
+  background-color: white;
+  height: 55px;
+}
+
+.data-control__panel {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: none;
+  overflow: auto;
+}
+
+.data-control__panel--selected {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=dataControl.css.map */

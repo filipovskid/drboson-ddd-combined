@@ -1,0 +1,74 @@
+.branch-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  list-style: none;
+  line-height: 20px;
+  height: 35px;
+  min-height: 35px;
+  margin-bottom: 4px;
+  padding: 10px;
+  padding-right: 5px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-left: 3px solid transparent;
+  -webkit-box-shadow: 0px 1px 0px 0px #cccccc;
+          box-shadow: 0px 1px 0px 0px #cccccc;
+}
+
+.branch-item.selected {
+  border: 1px solid #61a0a8;
+  background-color: #c4dbde;
+  border-left: 3px solid #61a0a8;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.branch-item:hover {
+  border-left: 2px solid #61a0a8;
+}
+
+.branch-item .item-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.branch-item .item-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1;
+          flex: 1 1;
+  font-size: 12px;
+  font-weight: 500;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.branch-item .item-actions {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0;
+          flex: 0 0;
+}
+
+.branch-item .item-actions .btn.action {
+  padding: 0;
+}
+
+.branch-item .item-actions .action svg {
+  width: 20px;
+}
+/*# sourceMappingURL=branchItem.css.map */

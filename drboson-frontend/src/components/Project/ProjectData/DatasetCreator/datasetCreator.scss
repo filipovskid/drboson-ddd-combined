@@ -1,0 +1,83 @@
+@import '../../../../styles/pallete';
+
+.dataset-creator__wrapper {
+    margin-bottom: 15px;
+}
+
+.dataset-creator {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: 10px 30px;
+    margin: auto;
+    background-color: white;
+    border: 1px solid $border;
+    border-radius: 3px;
+    box-shadow: 3px 9px 5px -7px rgba(0, 0, 0, 0.15);
+    position: relative;
+
+    .dataset-creator__item {
+        flex: 2;
+
+        .dataset-creator__item--header {
+            color: lighten($color: $suppressed-color, $amount: 30);
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        .dataset-creator__item--input {
+            text-align: center;
+            font-size: .84rem;
+        }
+    }
+
+    input[type="text"],
+    textarea {
+        width: 90%;
+        border: none;
+        border-bottom: 1px solid $accent-color-light;
+
+        &:focus {
+            outline: none;
+            border-bottom: 2px solid $accent-color-dark;
+        }
+    }
+
+    input[type="text"] {
+        text-align: center;
+    }
+
+    .dataset-creator--action {
+        float: right;
+        padding: 5px;
+        margin-left: 5px;
+
+        svg {
+            width: 20px;
+            stroke: $icon-soft;
+        }
+
+        &:hover {
+            svg {
+                stroke: $accent-color-dark;
+            }
+        }
+
+        &:focus {
+            box-shadow: none !important;
+        }
+    }
+
+    .dataset-creator--action.submit:hover {
+        transition: transform 0.3s ease;
+        transform: translateX(3px);
+    }
+
+    .dataset-creator__actions {
+        flex: 1;
+    }
+
+    &.disabled * {
+        color: $true-suppressed;
+    }
+}

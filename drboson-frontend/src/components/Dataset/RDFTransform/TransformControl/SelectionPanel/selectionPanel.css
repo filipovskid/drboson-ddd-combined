@@ -1,0 +1,9 @@
+.selection-panel {
+  overflow: scroll;
+}
+
+.selection-panel .selection-items {
+  margin: 0;
+  padding: 5px;
+}
+/*# sourceMappingURL=selectionPanel.css.map */

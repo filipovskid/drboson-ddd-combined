@@ -1,0 +1,51 @@
+.overview-plane {
+  border-bottom: 1px solid #dbdbdb;
+  background-color: white;
+}
+
+.overview-plane .overview-plane--wrapper {
+  padding: 16px 32px;
+}
+
+.overview-plane .overview-header {
+  margin-bottom: 15px;
+}
+
+.overview-plane .overview-header .header {
+  font-size: 24px;
+}
+
+.overview-plane .overview-header .overview-header--heading {
+  color: #363a3d;
+  overflow: auto;
+}
+
+.overview-plane .overview-header .overview-header--heading h1 {
+  margin: 8px 0;
+}
+
+.overview-plane .overview-header .overview-header--desc {
+  color: #515457;
+  margin: 8px 0;
+}
+
+.overview-plane .overview-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
+}
+
+.overview-plane .overview-item .overview-item--key {
+  width: 128px;
+  color: #aaa;
+}
+
+.overview-plane .overview-item .overview-item--value {
+  color: #363a3d;
+}
+/*# sourceMappingURL=overviewPlane.css.map */

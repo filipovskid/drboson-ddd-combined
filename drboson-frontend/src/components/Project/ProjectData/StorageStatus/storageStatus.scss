@@ -1,0 +1,29 @@
+@import '../../../../styles/pallete';
+
+
+.dataset {
+    .circle-status {
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        margin: auto;
+    }
+
+    .idle,
+    .default {
+        background-color: lighten(gray, 30);
+        ;
+    }
+
+    .pending {
+        background-color: #f3cb55;
+    }
+
+    .success {
+        background-color: #2ab1ac;
+    }
+
+    .failed {
+        background-color: #dc3545;
+    }
+}

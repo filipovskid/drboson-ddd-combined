@@ -1,0 +1,66 @@
+@import '../../../../styles/pallete';
+
+.control {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.control__tabs {
+    display: flex;
+
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    .control__tabs--tab {
+        flex: 1 0 0px;
+        height: 55px;
+
+        cursor: pointer;
+        outline: none;
+
+        background-color: white;
+
+        &.react-tabs__tab--selected {
+            border-bottom: 2px solid $accent-color-dark;
+        }
+    }
+}
+
+.control__tab--content {
+    text-align: center;
+    padding: 2px 12px;
+
+    .tab-title {
+        display: block;
+        font-size: 17px;
+        font-weight: 500;
+        color: $softer-black;
+    }
+
+    .tab-subtitle {
+        display: block;
+        font-size: 13px;
+        font-weight: 500;
+        color: $true-suppressed;
+        margin-top: 5px;
+    }
+}
+
+.control__panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    // overflow: scroll;
+    height: 100%;
+    position: relative;
+
+    &:not(.react-tabs__tab-panel--selected) {
+        display: none;
+    }
+}
+
+.splitter-wrapper {
+    height: 100%;
+}

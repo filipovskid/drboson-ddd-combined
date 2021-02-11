@@ -1,0 +1,14 @@
+{
+  "namespace": "com.filipovski.drboson.sharedkernel.integration.avro",
+  "type": "record",
+  "name": "DatasetCreatedRecord",
+  "fields": [
+    { "name": "dataset_id", "type":  "string" },
+    { "name": "owner_id", "type":  "string" },
+    { "name": "project_id", "type":  "string" },
+    { "name": "location", "type": "string" },
+    { "name": "mime_type" , "type":  "string" },
+    { "name": "data_type", "type":  {"type": "enum", "name": "DataType", "symbols" : ["COMMON", "RDF"] }},
+    { "name": "timestamp", "type":  "long" }
+  ]
+}

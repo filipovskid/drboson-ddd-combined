@@ -1,0 +1,35 @@
+@import '../../../styles/pallete';
+
+.data-explorer {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    background-color: $background-gray;
+    overflow: hidden;
+
+    &__control {
+        height: 100%;
+        width: 300px;
+        border-right: 1px solid $border;
+    }
+
+    &__main-pane {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        height: 100%;
+    }
+
+    &__header {
+        height: 55px;
+        border-bottom: 1px solid $border;
+        // border-width: 0 0 1px 1px;
+        background-color: white;
+    }
+
+    &__workspace {
+        display: flex;
+        flex: 1 1 0;
+        padding: 20px 1px 0px 20px;
+    }
+}

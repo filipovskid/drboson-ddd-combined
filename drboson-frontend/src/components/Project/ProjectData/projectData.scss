@@ -1,0 +1,20 @@
+@import '../../../styles/pallete';
+
+.project-data {
+    margin: 10px 50px;
+
+    .project-data__uploader {
+        height: 200px;
+        padding: 10px;
+        background-color: white;
+        border: 1px solid $border;
+        border-radius: 3px;
+        margin-bottom: 20px;
+    }
+
+    // .project-data__content {
+    //     .project-data__content--composers {}
+
+    //     .project-data__content--datasets {}
+    // }
+}

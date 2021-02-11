@@ -1,0 +1,62 @@
+@import '../../../../../styles/pallete';
+
+.branch-item {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    list-style: none;
+    line-height: 20px;
+    height: 35px;
+    min-height: 35px;
+    margin-bottom: 4px;
+    padding: 10px;
+    padding-right: 5px;
+    // padding-left: 7px;
+
+
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-left: 3px solid transparent;
+    box-shadow: 0px 1px 0px 0px #cccccc;
+
+    &.selected {
+        border: 1px solid $graph-node;
+        background-color: lighten($graph-node, 30);
+        border-left: 3px solid $graph-node;
+        box-shadow: none;
+    }
+
+    &:hover {
+        border-left: 2px solid $graph-node;
+    }
+
+    .item-main {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .item-info {
+        display: flex;
+        align-items: center;
+        flex: 1 1;
+        font-size: 12px;
+        font-weight: 500;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .item-actions {
+        flex: 0 0;
+    }
+}
+
+.branch-item .item-actions {
+    .btn.action {
+        padding: 0;
+    }
+
+    .action svg {
+        width: 20px;
+    }
+}

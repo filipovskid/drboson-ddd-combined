@@ -1,0 +1,19 @@
+.validity-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 8px;
+}
+
+.bar--ok {
+  background-color: #81c784;
+}
+
+.bar--bad {
+  background-color: #e78994;
+}
+
+.bar--empty {
+  background-color: #f2f2f2;
+}
+/*# sourceMappingURL=progressBar.css.map */

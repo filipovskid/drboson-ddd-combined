@@ -1,0 +1,13 @@
+.line-series-config label {
+  font-weight: lighter;
+}
+
+.line-series-config .config-title {
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.line-series-config hr {
+  margin-top: 0;
+}
+/*# sourceMappingURL=lineSeriesConfigurer.css.map */

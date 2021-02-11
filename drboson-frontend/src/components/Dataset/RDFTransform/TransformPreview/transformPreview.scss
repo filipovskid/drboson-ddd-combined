@@ -1,0 +1,40 @@
+@import '../../../../styles/pallete';
+
+.result-table {
+    .HeaderGrid {
+        width: 100%;
+        overflow: hidden !important;
+    }
+
+    .cell {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        // align-items: center;
+        text-align: center;
+    }
+
+    .cell,
+    .header-cell {
+        font-size: 13px;
+        line-height: 25px;
+        border-right: 1px solid #dddddd;
+    }
+
+    .header-cell {
+        width: 100%;
+        border-bottom: 1px solid #dddddd;
+        font-weight: bold;
+        color: $accent-color-dark;
+    }
+
+    .ReactVirtualized__Grid {
+        outline: none;
+    }
+
+    .ellipsis {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+}

@@ -1,0 +1,38 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #23231b;
+  height: 50px;
+}
+
+header .header-logo {
+  height: 100%;
+}
+
+header .header-logo img {
+  height: 40px;
+  max-width: 100%;
+}
+
+header .avatar img {
+  width: 30px;
+  height: 30px;
+  border: 1 solid white;
+  border-radius: 2px;
+}
+
+header .header-actions {
+  margin: 0 10px;
+}
+
+header .actions-right .header-actions__item {
+  margin-left: 10px;
+}
+/*# sourceMappingURL=header.css.map */

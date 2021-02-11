@@ -1,0 +1,12 @@
+{
+  "namespace": "com.filipovski.drboson.sharedkernel.integration.avro",
+  "type": "record",
+  "name": "UserCreatedRecord",
+  "fields": [
+    { "name": "user_id", "type":  "string" },
+    { "name": "username", "type": "string" },
+    { "name": "password" , "type":  "string" },
+    { "name": "email", "type":  "string" },
+    { "name": "timestamp", "type":  "long" }
+  ]
+}

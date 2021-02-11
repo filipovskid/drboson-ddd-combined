@@ -1,0 +1,58 @@
+@import '../../../../styles/pallete';
+
+.transform-status {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    padding: 5px 20px;
+}
+
+.transform-status__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .transform-status__info--header {
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .transform-status__info--info {
+        line-height: normal;
+        font-size: 11px;
+        font-weight: 500;
+        color: $true-suppressed;
+    }
+}
+
+.transform-status__actions {
+    display: flex;
+    align-items: center;
+
+    .action {
+        margin-left: 10px;
+    }
+
+    .btn.action {
+        color: black;
+        background-color: white;
+        font-size: 12px;
+        font-weight: 500;
+        text-transform: uppercase;
+        border: 1px solid $border;
+        padding: 3px 8px;
+        height: 25px;
+        border-radius: 0;
+
+        &:hover {
+            background-color: #dddddd;
+        }
+    }
+
+    .action.accent {
+        background-color: $logo-yellow;
+        border: 1px solid transparent;
+    }
+}

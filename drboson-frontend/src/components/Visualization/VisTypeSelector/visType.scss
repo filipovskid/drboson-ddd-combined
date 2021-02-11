@@ -1,0 +1,54 @@
+@import '../../../styles/pallete';
+
+.vis-type-selector {
+
+    .vis-type-selector__section--heading {
+        padding: 5px;
+        text-align: center;
+        text-transform: uppercase;
+        color: lighten($color: $accent-color-dark, $amount: 15);
+        background-color: $accent-color-light;
+        font-weight: lighter;
+
+    }
+
+    .vis-type-selector__section.disabled {
+        .vis-type-selector__section--heading {
+            background-color: lighten($color: $accent-color-light, $amount: 20);
+            color: lighten($color: $accent-color-dark, $amount: 40);
+        }
+    }
+
+    .vis-type-selector__section--content {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px 0;
+        margin-top: 10px;
+    }
+
+    .vis-type-selector__item {
+        padding: 10px;
+        margin: 0 calc((100% - 5*100px) / 10);
+
+        &:hover {
+            cursor: pointer;
+            border-radius: 3px;
+            box-shadow: 0 1px 3px 0 #bcbdbd, 0 0 0 1px #d4d4d5;
+            transform: translateY(-3px);
+        }
+
+        .vis-type-selector__item--type {
+            img {
+                height: 80px;
+                width: 80px;
+            }
+        }
+
+        .vis-type-selector__item--name {
+            font-size: 1em;
+            text-align: center;
+            color: rgba(0, 0, 0, .68);
+            padding-top: 10px;
+        }
+    }
+}

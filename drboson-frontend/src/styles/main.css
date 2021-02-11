@@ -1,0 +1,88 @@
+@media (min-width: 1200px) {
+  .container-xl {
+    max-width: 1280px;
+  }
+}
+
+#root {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+}
+
+label {
+  font-weight: 600;
+}
+
+.small-font {
+  font-size: 14px;
+}
+
+.no-focus:focus {
+  border-color: #ced4da;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.header {
+  font-size: 24px;
+}
+
+.accent-btn {
+  background-color: none;
+  color: #fdd703;
+  border: 1px solid #fdd703;
+}
+
+.accent-btn:hover {
+  color: #998201;
+  border-color: #998201;
+}
+
+.pale-btn {
+  color: #fdd703;
+}
+
+.pale-btn:hover {
+  color: #998201;
+}
+
+.btn-ok {
+  background-color: #78909c;
+  border: 1px solid #4b636e;
+  color: white;
+}
+
+.btn-ok:hover {
+  color: white;
+}
+
+.btn-cancel {
+  background-color: white;
+  border: 1px solid #4b636e;
+  color: #4b636e;
+}
+
+.btn-cancel:hover {
+  color: #4b636e;
+}
+
+.btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Source Sans Pro", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+/*# sourceMappingURL=main.css.map */

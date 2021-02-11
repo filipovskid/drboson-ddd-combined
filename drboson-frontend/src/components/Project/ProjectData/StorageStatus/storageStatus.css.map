@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AACI,QADI,CACJ,cAAc,CAAC;EACX,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,aAAa,EAAE,IAAI;EACnB,MAAM,EAAE,IAAI;CACf;;AANL,AAQI,QARI,CAQJ,KAAK;AART,QAAQ,CASJ,QAAQ,CAAC;EACL,gBAAgB,EAAE,OAAiB;CAEtC;;AAZL,AAcI,QAdI,CAcJ,QAAQ,CAAC;EACL,gBAAgB,EAAE,OAAO;CAC5B;;AAhBL,AAkBI,QAlBI,CAkBJ,QAAQ,CAAC;EACL,gBAAgB,EAAE,OAAO;CAC5B;;AApBL,AAsBI,QAtBI,CAsBJ,OAAO,CAAC;EACJ,gBAAgB,EAAE,OAAO;CAC5B",
+    "sources": [
+        "storageStatus.scss",
+        "../../../../styles/_pallete.scss"
+    ],
+    "names": [],
+    "file": "storageStatus.css"
+}

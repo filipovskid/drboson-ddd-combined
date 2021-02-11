@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,cAAc,CAAC;EACX,OAAO,EAAE,KAAK;CAgBjB;;AAjBD,AAGI,cAHU,CAGV,KAAK,CAAA,AAAA,IAAC,CAAK,MAAM,AAAX,EAAa;EACf,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,KAAK,ECHO,OAAO;EDKnB,MAAM,EAAE,IAAI;EACZ,aAAa,EAAE,GAAG,CAAC,KAAK,CCPX,OAAO;CDavB;;AAhBL,AAYQ,cAZM,CAGV,KAAK,CAAA,AAAA,IAAC,CAAK,MAAM,AAAX,CASD,MAAM,CAAC;EACJ,OAAO,EAAE,IAAI;EACb,aAAa,EAAE,GAAG,CAAC,KAAK,CCVhB,OAAO;CDWlB",
+    "sources": [
+        "columnHeader.scss",
+        "../../../../../styles/_pallete.scss"
+    ],
+    "names": [],
+    "file": "columnHeader.css"
+}

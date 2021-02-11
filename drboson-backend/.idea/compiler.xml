@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="drboson" />
+        <module name="service-discovery" />
+        <module name="users-service" />
+        <module name="runs-service" />
+        <module name="api-gateway" />
+        <module name="datasets-service" />
+        <module name="shared-kernel" />
+        <module name="projects-service" />
+        <module name="authentication-service" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-gateway" options="-parameters" />
+      <module name="authentication-service" options="-parameters" />
+      <module name="datasets-service" options="-parameters" />
+      <module name="projects-service" options="-parameters" />
+      <module name="runs-service" options="-parameters" />
+      <module name="service-discovery" options="-parameters" />
+      <module name="shared-kernel" options="-parameters" />
+      <module name="users-service" options="-parameters" />
+    </option>
+  </component>
+</project>

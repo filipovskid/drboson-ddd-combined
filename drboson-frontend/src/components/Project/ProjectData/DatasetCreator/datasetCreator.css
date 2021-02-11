@@ -1,0 +1,95 @@
+.dataset-creator__wrapper {
+  margin-bottom: 15px;
+}
+
+.dataset-creator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  padding: 10px 30px;
+  margin: auto;
+  background-color: white;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  -webkit-box-shadow: 3px 9px 5px -7px rgba(0, 0, 0, 0.15);
+          box-shadow: 3px 9px 5px -7px rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+
+.dataset-creator .dataset-creator__item {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+.dataset-creator .dataset-creator__item .dataset-creator__item--header {
+  color: #b3b3b3;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.dataset-creator .dataset-creator__item .dataset-creator__item--input {
+  text-align: center;
+  font-size: .84rem;
+}
+
+.dataset-creator input[type="text"],
+.dataset-creator textarea {
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid #a7c0cd;
+}
+
+.dataset-creator input[type="text"]:focus,
+.dataset-creator textarea:focus {
+  outline: none;
+  border-bottom: 2px solid #4b636e;
+}
+
+.dataset-creator input[type="text"] {
+  text-align: center;
+}
+
+.dataset-creator .dataset-creator--action {
+  float: right;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.dataset-creator .dataset-creator--action svg {
+  width: 20px;
+  stroke: #aaa;
+}
+
+.dataset-creator .dataset-creator--action:hover svg {
+  stroke: #4b636e;
+}
+
+.dataset-creator .dataset-creator--action:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.dataset-creator .dataset-creator--action.submit:hover {
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+  -webkit-transform: translateX(3px);
+          transform: translateX(3px);
+}
+
+.dataset-creator .dataset-creator__actions {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.dataset-creator.disabled * {
+  color: #aaa;
+}
+/*# sourceMappingURL=datasetCreator.css.map */

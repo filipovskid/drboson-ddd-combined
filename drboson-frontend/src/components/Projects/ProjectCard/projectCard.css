@@ -1,0 +1,15 @@
+.project:hover {
+  cursor: pointer;
+}
+
+.project .project__owner {
+  color: #666;
+  text-transform: lowercase;
+  line-height: 1;
+  font-size: .9rem;
+}
+
+.project .project__info {
+  background-color: #24292e;
+}
+/*# sourceMappingURL=projectCard.css.map */

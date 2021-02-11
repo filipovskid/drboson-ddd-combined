@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,CAAC;EAEb,QAAQ,EAAE,MAAM;CAOnB;;AATD,AAKI,gBALY,CAKZ,gBAAgB,CAAC;EACb,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,GAAG;CACf",
+    "sources": [
+        "selectionPanel.scss"
+    ],
+    "names": [],
+    "file": "selectionPanel.css"
+}

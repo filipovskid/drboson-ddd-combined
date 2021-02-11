@@ -1,0 +1,56 @@
+@import '../../styles/pallete';
+
+.floating-menu {
+    position: relative;
+
+    &.open .floating-menu__items {
+        display: block;
+    }
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.floating-menu__items {
+    display: none;
+    position: absolute;
+    list-style: none;
+    z-index: 1000;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    min-width: 160px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, .15);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    background-color: white;
+
+    .floating-menu__items--item {
+        text-align: left;
+        min-width: 100%;
+        color: $pitch-black;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 18px;
+        padding: 5px 20px;
+        white-space: nowrap;
+
+        &:not(.disabled):hover {
+            background-color: $accent-color-light;
+            color: white;
+            cursor: pointer;
+        }
+
+        &.disabled {
+            // background-color: $tru;
+            color: $true-suppressed;
+            cursor: default;
+        }
+    }
+}
+
+.floating-menu-right {
+    right: 0;
+    left: auto;
+}

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AACI,QADI,AACH,MAAM,CAAC;EACJ,MAAM,EAAE,OAAO;CAGlB;;AALL,AAOI,QAPI,CAOJ,eAAe,CAAC;EACZ,KAAK,ECVM,IAAI;EDWf,cAAc,EAAE,SAAS;EACzB,WAAW,EAAE,CAAC;EACd,SAAS,EAAE,KAAK;CACnB;;AAZL,AAcI,QAdI,CAcJ,cAAc,CAAC;EACX,gBAAgB,ECdX,OAAO;CDef",
+    "sources": [
+        "projectCard.scss",
+        "../../../styles/_pallete.scss"
+    ],
+    "names": [],
+    "file": "projectCard.css"
+}

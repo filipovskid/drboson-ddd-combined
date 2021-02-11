@@ -1,0 +1,20 @@
+{
+  "namespace": "com.filipovski.drboson.sharedkernel.integration.avro",
+  "type": "record",
+  "name": "DatasetStorageJobRecord",
+  "fields": [
+    { "name": "job_id", "type":  "string" },
+    { "name": "project_id", "type": "string" },
+    { "name": "dataset_id", "type": "string" },
+    { "name": "job_type",
+      "type": {
+        "name": "JobType",
+        "type": "enum",
+        "symbols": ["STORAGE", "RDF_READY_STORAGE", "RDF_TRANSFORM_STORAGE", "PROCESSING"]
+      }
+    },
+    { "name": "dataset_location" , "type":  "string" },
+    { "name": "dataset_name", "type": "string", "default": "" },
+    { "name": "payload", "type":  "string", "default": "{}" }
+  ]
+}

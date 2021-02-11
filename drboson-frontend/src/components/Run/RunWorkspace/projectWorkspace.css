@@ -1,0 +1,26 @@
+.workspace .workspace__header {
+  overflow: auto;
+  margin: 5px 0;
+  padding: 0 10px;
+}
+
+.workspace .workspace__header .workspace__header--heading {
+  float: left;
+}
+
+.workspace .workspace__header .workspace__header--actions {
+  float: right;
+}
+
+.action svg {
+  stroke: #aaa;
+}
+
+.action:hover {
+  cursor: pointer;
+}
+
+.action:hover svg {
+  stroke: #4b636e;
+}
+/*# sourceMappingURL=projectWorkspace.css.map */

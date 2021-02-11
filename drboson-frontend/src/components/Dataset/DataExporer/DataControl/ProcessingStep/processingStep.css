@@ -1,0 +1,57 @@
+.processing-step {
+  margin-bottom: 5px;
+  list-style: none;
+}
+
+.processor {
+  font-size: 12px;
+  min-height: 20px;
+  line-height: 20px;
+  background-color: white;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.processor__config {
+  display: none;
+  min-height: 50px;
+  padding: 0px 10px 5px 20px;
+}
+
+.processor__config hr {
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
+
+.processor.active .processor__config {
+  display: block;
+}
+
+.processor-info {
+  min-height: 40px;
+  line-height: normal;
+  padding: 3px 10px;
+  padding-left: 20px;
+  cursor: pointer;
+  text-overflow: ellipsis;
+}
+
+.processor-info__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 5px;
+}
+
+.processor-info__changes {
+  font-size: 11px;
+  font-weight: 600;
+  color: #ce1228;
+}
+
+.processor-info__actions .action svg {
+  width: 13px;
+}
+/*# sourceMappingURL=processingStep.css.map */

@@ -1,0 +1,30 @@
+.runs-info .runs-info__header {
+  padding: 10px 10px;
+  overflow: hidden;
+}
+
+.runs-info .runs-info__header .runs-info__header--heading {
+  float: left;
+  color: #363a3d;
+}
+
+.runs-info .runs-info__header .runs-info__header--actions {
+  float: right;
+}
+
+.runs-info .runs-info__content {
+  padding: 10px 36px;
+}
+
+.action svg {
+  stroke: #aaa;
+}
+
+.action:hover {
+  cursor: pointer;
+}
+
+.action:hover svg {
+  stroke: #4b636e;
+}
+/*# sourceMappingURL=projectInfo.css.map */

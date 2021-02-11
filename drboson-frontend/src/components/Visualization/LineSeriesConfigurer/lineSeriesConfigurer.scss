@@ -1,0 +1,16 @@
+@import '../../../styles/pallete';
+
+.line-series-config {
+    label {
+        font-weight: lighter;
+    }
+
+    .config-title {
+        font-weight: 400;
+        margin-bottom: 0.5rem;
+    }
+
+    hr {
+        margin-top: 0;
+    }
+}

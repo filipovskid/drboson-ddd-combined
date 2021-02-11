@@ -1,0 +1,47 @@
+@import '../../../../styles/pallete';
+
+
+.data-uploader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border: 1px dashed $border;
+    border-radius: 3px;
+
+    &:focus {
+        outline: none;
+    }
+
+    .data-uploader__content {
+        div {
+            color: $icon-soft;
+        }
+
+        .content-art {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            svg {
+                stroke: $icon-soft;
+            }
+        }
+    }
+
+    &.active.accept {
+        .data-uploader__content {
+            div {
+                color: $accent-color-dark;
+            }
+
+            .content-art svg {
+                stroke: $accent-color-dark;
+            }
+        }
+    }
+
+    &.reject {
+        background-color: lighten($color: $icon-soft, $amount: 30);
+    }
+}

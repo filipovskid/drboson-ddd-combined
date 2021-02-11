@@ -1,0 +1,34 @@
+@import '../../../../../styles/pallete';
+
+.control-tab {
+    flex: 1 1 0px;
+    height: 55px;
+    text-align: center;
+    padding: 2px 12px;
+    outline: none;
+    cursor: pointer;
+
+    &__title {
+        display: block;
+        font-size: 17.5px;
+        font-weight: 500;
+        line-height: 26px;
+        color: $softer-black;
+    }
+
+    &__subtitle {
+        display: block;
+        font-size: 13px;
+        font-weight: 500;
+        color: $true-suppressed;
+        margin-top: 5px;
+    }
+
+    &--selected {
+        border-bottom: 2px solid $accent-color-dark;
+
+        .control-tab__title {
+            color: darken($color: $accent-color-dark, $amount: 20)
+        }
+    }
+}

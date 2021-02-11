@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAC;EACN,OAAO,EAAE,IAAI;EACb,gBAAgB,EAAE,OAAO;EACzB,SAAS,EAAE,CAAC;EACZ,QAAQ,EAAE,MAAM;CAQnB;;AAZD,AAOI,SAPK,CAOL,kBAAkB,CAAC;EACf,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,QAAQ,EAAE,MAAM;CACnB",
+    "sources": [
+        "runPage.scss"
+    ],
+    "names": [],
+    "file": "runPage.css"
+}

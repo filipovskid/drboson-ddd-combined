@@ -1,0 +1,50 @@
+@import '../../styles/pallete';
+
+
+.overview-plane {
+    // height: 300px; // REMOVE
+    border-bottom: 1px solid $border;
+    background-color: white;
+
+    .overview-plane--wrapper {
+        padding: 16px 32px;
+    }
+
+    .overview-header {
+        margin-bottom: 15px;
+
+        .header {
+            font-size: 24px;
+        }
+
+        .overview-header--heading {
+            color: $pitch-black;
+            overflow: auto;
+
+            h1 {
+                margin: 8px 0;
+            }
+        }
+
+        .overview-header--desc {
+            color: $soft-black;
+            margin: 8px 0;
+        }
+    }
+
+    .overview-item {
+        display: flex;
+        min-height: 30px;
+        align-items: center;
+        font-size: 15px;
+
+        .overview-item--key {
+            width: 128px;
+            color: $true-suppressed;
+        }
+
+        .overview-item--value {
+            color: $pitch-black;
+        }
+    }
+}

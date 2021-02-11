@@ -1,0 +1,35 @@
+@import '../../../../../styles/pallete';
+
+.data-table {
+    .header-cell {
+        font-size: 12px;
+        background-color: white;
+        text-align: center;
+        min-width: 40px;
+
+        &:not(:last-child) {
+            border-right: 1px solid $border;
+        }
+    }
+
+    .column-name {
+        padding: 0 5px;
+        line-height: 34px;
+        height: 25px;
+        font-weight: 600;
+    }
+
+    .column-type {
+        height: 18px;
+        padding: 0 5px;
+        font-size: 11px;
+        color: #28a9dd;
+        text-transform: capitalize;
+    }
+}
+
+.elipsed {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

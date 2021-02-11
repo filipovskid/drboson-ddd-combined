@@ -1,0 +1,51 @@
+@import '../../styles/pallete';
+
+.nav-sidebar {
+    width: 50px;
+    // height: 100vh;
+    background-color: white;
+    border-right: solid 1px rgb(167, 164, 164);
+    // flex: 1 1 auto;
+
+    .nav-sidebar__items {
+        .nav-sidebar__items__item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            height: 50px;
+
+            svg {
+                width: 30px;
+                stroke: $icon-color;
+            }
+
+            &:hover {
+                cursor: pointer;
+                background-color: lighten($color: $true-suppressed, $amount: 28);
+
+                svg {
+                    fill: white;
+                }
+            }
+        }
+    }
+
+    .active-item {
+        .nav-sidebar__items__item {
+            background-color: lighten($accent-color, 10);
+
+            svg {
+                stroke: white;
+            }
+
+            &:hover {
+                background-color: lighten($accent-color, 10);
+
+                svg {
+                    fill: none;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+.nav-sidebar {
+  width: 50px;
+  background-color: white;
+  border-right: solid 1px #a7a4a4;
+}
+
+.nav-sidebar .nav-sidebar__items .nav-sidebar__items__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+}
+
+.nav-sidebar .nav-sidebar__items .nav-sidebar__items__item svg {
+  width: 30px;
+  stroke: #374957;
+}
+
+.nav-sidebar .nav-sidebar__items .nav-sidebar__items__item:hover {
+  cursor: pointer;
+  background-color: #f1f1f1;
+}
+
+.nav-sidebar .nav-sidebar__items .nav-sidebar__items__item:hover svg {
+  fill: white;
+}
+
+.nav-sidebar .active-item .nav-sidebar__items__item {
+  background-color: #95a8b2;
+}
+
+.nav-sidebar .active-item .nav-sidebar__items__item svg {
+  stroke: white;
+}
+
+.nav-sidebar .active-item .nav-sidebar__items__item:hover {
+  background-color: #95a8b2;
+}
+
+.nav-sidebar .active-item .nav-sidebar__items__item:hover svg {
+  fill: none;
+}
+/*# sourceMappingURL=navSidebar.css.map */

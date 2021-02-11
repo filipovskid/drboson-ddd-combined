@@ -1,0 +1,16 @@
+{
+  "namespace": "com.filipovski.drboson.sharedkernel.integration.avro",
+  "type": "record",
+  "name": "RunStatusChangedRecord",
+  "fields": [
+    { "name": "run_id", "type":  "string" },
+    { "name": "project_id", "type": "string" },
+    { "name": "status" ,
+      "type":  {
+        "name": "RunStatus",
+        "type": "enum",
+        "symbols": ["PENDING", "RUNNING", "COMPLETED", "FAILED"]
+      }
+    }
+  ]
+}

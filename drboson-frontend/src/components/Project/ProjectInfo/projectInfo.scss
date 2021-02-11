@@ -1,0 +1,38 @@
+@import '../../../styles/pallete';
+
+// .project-info {}
+.runs-info {
+    // padding: 10px 10px;
+
+    .runs-info__header {
+        padding: 10px 10px;
+        overflow: hidden;
+
+        .runs-info__header--heading {
+            float: left;
+            color: $pitch-black;
+        }
+
+        .runs-info__header--actions {
+            float: right;
+        }
+    }
+
+    .runs-info__content {
+        padding: 10px 36px;
+    }
+}
+
+.action {
+    svg {
+        stroke: $icon-soft;
+    }
+}
+
+.action:hover {
+    cursor: pointer;
+
+    svg {
+        stroke: $accent-color-dark
+    }
+}

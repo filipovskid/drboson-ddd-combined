@@ -1,0 +1,32 @@
+@import '../../../styles/pallete';
+
+
+.workspace {
+    .workspace__header {
+        overflow: auto;
+        margin: 5px 0;
+        padding: 0 10px;
+
+        .workspace__header--heading {
+            float: left;
+        }
+
+        .workspace__header--actions {
+            float: right;
+        }
+    }
+}
+
+.action {
+    svg {
+        stroke: $icon-soft;
+    }
+}
+
+.action:hover {
+    cursor: pointer;
+
+    svg {
+        stroke: $accent-color-dark
+    }
+}

@@ -1,0 +1,41 @@
+@import '../../../../styles/pallete';
+
+.data-table {
+    flex: 1 1 0;
+    border: 1px solid $border;
+
+
+    .header-grid {
+        overflow: hidden !important;
+        outline: none;
+    }
+
+    .data-grid {
+        outline: none;
+    }
+
+    .cell {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0 5px;
+
+        font-size: 13px;
+        line-height: 25px;
+
+        &:not(:last-child) {
+            border-right: 1px solid $border;
+        }
+    }
+
+    .even-row {
+        background-color: white;
+    }
+
+    .odd-row {
+        background-color: $row-gray;
+    }
+
+}

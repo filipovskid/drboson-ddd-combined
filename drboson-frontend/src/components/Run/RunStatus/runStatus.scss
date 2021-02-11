@@ -1,0 +1,35 @@
+@import '../../../styles/pallete';
+
+.run {
+    .status {
+        display: inline;
+        padding: 3px 10px;
+        border: 1px solid;
+        border-radius: 3px;
+    }
+
+    .pending {
+        color: $true-suppressed;
+        border-color: $true-suppressed;
+    }
+
+    .running {
+        color: $accent-color-dark;
+        border-color: $accent-color-dark;
+    }
+
+    .success {
+        color: green;
+        border-color: green;
+    }
+
+    .failed {
+        color: red;
+        border-color: red;
+    }
+
+    .default {
+        color: $border;
+        border-color: $border;
+    }
+}

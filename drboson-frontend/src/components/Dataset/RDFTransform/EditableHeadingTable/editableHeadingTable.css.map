@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "editableHeadingTable.scss",
+        "../../../../styles/_pallete.scss"
+    ],
+    "names": [],
+    "file": "editableHeadingTable.css"
+}
